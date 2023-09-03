@@ -1,0 +1,80 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\.3fd18c63aa88139023e7aafaf80597a20c05604f-audit.json",
+    "files": [
+        {
+            "date": 1693495065564,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-31-08-21-error.log",
+            "hash": "a96d54b6538276f0be107e6226411c339bd62e13ca9bdcd5cec02d14edc1f56b"
+        },
+        {
+            "date": 1693554651602,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-13-error.log",
+            "hash": "a384fcb8e38650fe705ab1993de8f991971e0927ee5991df3ae19ffd88d78602"
+        },
+        {
+            "date": 1693555476265,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-14-error.log",
+            "hash": "362f81bb57490eb6a3d64c71422f2e707391e03c14c4f08069b654afaf1ded4f"
+        },
+        {
+            "date": 1693564208180,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-16-error.log",
+            "hash": "14bc79600f6d898de1e0f700dce1d15f2e7854ec7a8073c11bc33dfd2745c4de"
+        },
+        {
+            "date": 1693566022348,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-17-error.log",
+            "hash": "8aaafb7bc83e08c3621babc352e80e0ee556378eb9e2c7132c2d17b63111c75b"
+        },
+        {
+            "date": 1693569615077,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-18-error.log",
+            "hash": "cddb7e537cbba9ddd81d57565070b77dfb45fabe4c7b57279cd88d0638987e6c"
+        },
+        {
+            "date": 1693580771585,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-21-error.log",
+            "hash": "3b94f54afa070e2848a3a38522c21cb77ad0a8c275b85ae8ce102e54940c8791"
+        },
+        {
+            "date": 1693584025066,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-22-error.log",
+            "hash": "d079f368b82d71f8959aa2e7c85ff24e59a79f7b360861b6a359d5b82fda70d3"
+        },
+        {
+            "date": 1693590808289,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-01-09-23-error.log",
+            "hash": "6bde15a5d0cff84b5044f6063c5ba3f6de3b95948b3bac4556a20567a13848ce"
+        },
+        {
+            "date": 1693591261031,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-02-09-00-error.log",
+            "hash": "1a045dbf703dbf50b32444e9652f64dc65d925749f35dcea006124ec3f2105a2"
+        },
+        {
+            "date": 1693630125426,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-02-09-10-error.log",
+            "hash": "bce01d1842269a6b649345be007bd59951f62297f343faaa998a6c0412381b92"
+        },
+        {
+            "date": 1693631385816,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-02-09-11-error.log",
+            "hash": "fec61ab9f8e1f09a6ba6da15c01702fe3ac5bd786d42da71676556646417e987"
+        },
+        {
+            "date": 1693636249450,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-02-09-12-error.log",
+            "hash": "b2c072f8ab39af801daa491e4a3313d7598420dd6dd843c9ed1928021d1d1313"
+        },
+        {
+            "date": 1693638339692,
+            "name": "C:\\Users\\User\\Desktop\\DEV Projects\\Level -2 Assignments\\Assignment-8\\booknest-prisma-postgresql\\logs\\winston\\errors\\phu-2023-02-09-13-error.log",
+            "hash": "c4c829f00260fe14c94d0300554300fe307511d4a92865dab0a18da74c5a44dd"
+        }
+    ],
+    "hashType": "sha256"
+}

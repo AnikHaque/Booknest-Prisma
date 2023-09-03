@@ -1,0 +1,88 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String            @id @default(uuid())
+  name             String
+  email            String            @unique
+  password         String
+  role             roles
+  contactNo        String
+  address          String
+  profileImg       String            @default("https://t3.ftcdn.net/jpg/05/17/79/88/360_F_517798849_WuXhHTpg2djTbfNf0FQAjzFEoluHpnct.jpg")
+  reviewAndRatings ReviewAndRating[]
+  orders           Order[]
+
+  @@map("users")
+}
+
+enum roles {
+  admin
+  customer
+}
+
+model Category {
+  id    String @id @default(uuid())
+  title String @unique
+  books Book[]
+
+  @@map("category")
+}
+
+model Book {
+  id               String            @id @default(uuid())
+  title            String            @unique
+  author           String
+  price            Float
+  genre            String
+  publicationDate  DateTime
+  categoryId       String
+  category         Category          @relation(fields: [categoryId], references: [id])
+  reviewAndRatings ReviewAndRating[]
+
+  @@map("books")
+}
+
+model ReviewAndRating {
+  id     String @id @default(uuid())
+  review String
+  rating Int
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+  bookId String
+  book   Book   @relation(fields: [bookId], references: [id])
+
+  @@map("Review_and_Ratings")
+}
+
+model OrderedBook {
+  id       String @id @default(uuid())
+  bookId   String
+  quantity Int
+  order    Order  @relation(fields: [orderId], references: [id])
+  orderId  String
+}
+
+model Order {
+  id           String        @id @default(uuid())
+  userId       String
+  user         User          @relation(fields: [userId], references: [id])
+  orderedBooks OrderedBook[]
+  status       status        @default(pending)
+  createdAt    DateTime      @default(now())
+}
+
+enum status {
+  pending
+  shipped
+  delivered
+}
